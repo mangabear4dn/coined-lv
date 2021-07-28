@@ -42,10 +42,16 @@ header a {
     color: inherit;
 }
 
-header li {
-    list-style-type: none;
+header ul {
     position: relative;
     float: right;
+}
+
+header li {
+    list-style-type: none;
+    /* position: relative;
+    float: right; */
+    display: inline-block;
     border: 1px rgb(237,230,234) solid;
     padding: 1px 3px;
     margin: 2px;
