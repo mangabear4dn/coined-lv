@@ -1,3 +1,7 @@
-p {
+#copyright {
     background-color: red;
+}
+
+#footer-links {
+    background-color: seagreen;
 }
