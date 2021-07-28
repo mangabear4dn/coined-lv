@@ -36,6 +36,13 @@ header {
     top: 0;
 }
 
+#nav a:hover {
+    border: 1px rgb(237,230,234) solid;
+    padding: 1px 3px;
+    background-color: rgb(86,26,35);
+    color: rgb(237,230,234);
+}
+
 #active-page {
     color: rgb(86,26,35);
     background-color: rgb(237,230,234);
