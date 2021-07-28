@@ -34,7 +34,13 @@ header {
     position: relative;
     float: right;
     top: 0;
-    background-color: green;
+}
+
+#active-page {
+    color: rgb(86,26,35);
+    background-color: rgb(237,230,234);
+    padding: 1px 3px;
+    font-size: 115%;
 }
 
 header a {
@@ -52,7 +58,6 @@ header li {
     /* position: relative;
     float: right; */
     display: inline-block;
-    border: 1px rgb(237,230,234) solid;
     padding: 1px 3px;
     margin: 2px;
 }
