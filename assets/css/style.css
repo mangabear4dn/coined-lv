@@ -9,6 +9,48 @@ body {
     background-color: rgb(237,230,234);
 }
 
+/* Header styling */
+
+header {
+    background-color: rgb(86,26,35);
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    color: rgb(237,230,234);
+}
+
+#title {
+    height: 100%;
+    position: relative;
+    float: left;
+    top: 0;
+    width: 35%;
+}
+
+#nav {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    float: right;
+    top: 0;
+    background-color: green;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header li {
+    list-style-type: none;
+    position: relative;
+    float: right;
+    border: 1px rgb(237,230,234) solid;
+    padding: 1px 3px;
+    margin: 2px;
+}
+
 /* Footer styling  */
 
 footer {
