@@ -54,3 +54,4 @@ todo
 
 * The Code Institute student template for GitPod
 * W3W for to check syntax for some symbols (copyright) and available attributes for elements
+* htmlcolors.com for color pallet (BUIAA)
