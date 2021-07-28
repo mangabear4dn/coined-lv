@@ -62,8 +62,6 @@ header ul {
 
 header li {
     list-style-type: none;
-    /* position: relative;
-    float: right; */
     display: inline-block;
     padding: 1px 3px;
     margin: 2px;
