@@ -84,9 +84,9 @@ footer {
     background-color: rgb(177,53,71);
     width: 100vw;
     height: 100px;
-    /* change from fixed to sticky to keep the footer from covering up the content of the page (reference to the solution is by the same attribute at the header styling) */
-    position: sticky; 
-    bottom: 0;
+    /* change the footer fixed to default static because it works out the best since all of the documents on the website will have enough content to push it to the bottom of the displayed page anyway */
+    /* position: static;  */
+    /* bottom: 0; */
     font-size: 65%;
     color: rgb(237,230,234);
 }
