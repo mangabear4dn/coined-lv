@@ -7,6 +7,7 @@ body {
     border: none;
     font-family: 'Vollkorn', serif;
     background-color: rgb(237,230,234);
+    color: rgb(45,16,120);
 }
 
 /* Header styling */
@@ -15,7 +16,11 @@ header {
     background-color: rgb(86,26,35);
     width: 100vw;
     height: 100px;
-    position: fixed;
+    /* 
+    Solution to header covering up the top of the first section
+    https://stackoverflow.com/questions/16950213/how-to-prevent-fixed-positioned-element-overlapping-others-elements-in-css 
+    */
+    position: sticky;
     top: 0;
     color: rgb(237,230,234);
 }
@@ -67,13 +72,20 @@ header li {
     margin: 2px;
 }
 
+/* First section after header */
+
+/* #first-section {
+    clear: both;
+} */
+
 /* Footer styling  */
 
 footer {
     background-color: rgb(177,53,71);
     width: 100vw;
     height: 100px;
-    position: fixed;
+    /* change from fixed to sticky to keep the footer from covering up the content of the page (reference to the solution is by the same attribute at the header styling) */
+    position: sticky; 
     bottom: 0;
     font-size: 65%;
     color: rgb(237,230,234);
