@@ -34,6 +34,7 @@
         </div>
     </header>
     <section>
+        <!-- Used for inspiration at some points https://www.w3schools.com/html/html_form_input_types.asp -->
         <form id="feedback-form">
             <h2>We always strive to improve our service.</h2>
             <h3>Please leave us a feedback!</h3>
@@ -85,19 +86,28 @@
                 <option value="ten-twenty">Ten to twenty years</option>
                 <option value="more-than-twenty">More than twenty years</option>
             </select>
+            <fieldset>
+                <legend>How many Latvian coins have you collected?</legend>
+                <label for="collection-size-lv">I'm just staring</label>
+                <input type="range" name="collection-size-lv" id="collection-size-lv" min="1" max="10">
+                <label for="collection-size-lv">I have at least one full set</label>
+            </fieldset>
+            <fieldset>
+                <legend>How many coins have you collected from any place?</legend>
+                <label for="collection-size-total">I'm just staring</label>
+                <input type="range" name="collection-size-total" id="collection-size-total" min="1" max="10">
+                <label for="collection-size-total">I have at least one full set</label>
+            </fieldset>
+            <label for="positive">What do you like about our website?</label>
             <br>
-
-            <label for="collection-size-lv">How many Latvian coins have you collected?</label>
-            latvijas izcelsmes monetu daudzums radio ar nenoteiktiem skaitiem
-
-            <label for="collection-size-total">How many coins have you collected from any place?</label>
-            aptuvenais visparejais monetu skaits
-
-            <label for="pozitive">What do you like about our website?</label>
-
+            <textarea name="positive" id="positive" cols="30" rows="10"></textarea>
+            <br>
             <label for="suggestions">What suggestions do you have to improve our website?</label>
-
+            <br>
+            <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+            <br>
             <button type="submit">Submit feedback!</button>
+            <br>
             <button type="reset">Clear the form</button>
         </form>
     </section>
