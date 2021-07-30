@@ -127,6 +127,13 @@ footer {
     color: inherit;
 }
 
+/* Form styling */
+
+/* https://stackoverflow.com/questions/15935837/how-to-display-a-range-input-slider-vertically */
+/* input[type="range"] {
+    transform: rotate(270deg);
+ } */
+
 /* General styling for different elements */
 
 h1, h2, h3 {
