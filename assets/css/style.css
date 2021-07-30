@@ -6,14 +6,14 @@ body {
     padding: 0;
     border: none;
     font-family: 'Vollkorn', serif;
-    background-color: rgb(237,230,234);
-    color: rgb(45,16,120);
+    background-color: rgb(237, 230, 234);
+    color: rgb(45, 16, 120);
 }
 
 /* Header styling */
 
 header {
-    background-color: rgb(86,26,35);
+    background-color: rgb(86, 26, 35);
     width: 100vw;
     height: 100px;
     /* 
@@ -22,7 +22,7 @@ header {
     */
     position: sticky;
     top: 0;
-    color: rgb(237,230,234);
+    color: rgb(237, 230, 234);
     z-index: 10;
 }
 
@@ -43,15 +43,15 @@ header {
 }
 
 #nav a:hover {
-    border: 1px rgb(237,230,234) solid;
+    border: 1px rgb(237, 230, 234) solid;
     padding: 1px 3px;
-    background-color: rgb(86,26,35);
-    color: rgb(237,230,234);
+    background-color: rgb(86, 26, 35);
+    color: rgb(237, 230, 234);
 }
 
 #active-page {
-    color: rgb(86,26,35);
-    background-color: rgb(237,230,234);
+    color: rgb(86, 26, 35);
+    background-color: rgb(237, 230, 234);
     padding: 1px 3px;
     font-size: 115%;
 }
@@ -82,14 +82,14 @@ header li {
 /* Footer styling  */
 
 footer {
-    background-color: rgb(177,53,71);
+    background-color: rgb(177, 53, 71);
     width: 100vw;
     height: 100px;
     /* change the footer fixed to default static because it works out the best since all of the documents on the website will have enough content to push it to the bottom of the displayed page anyway */
     /* position: static;  */
     /* bottom: 0; */
     font-size: 65%;
-    color: rgb(237,230,234);
+    color: rgb(237, 230, 234);
 }
 
 #copyright {
@@ -118,7 +118,7 @@ footer {
 #footer-links li {
     list-style-type: none;
     display: inline-block;
-    border: 1px rgb(237,230,234) solid;
+    border: 1px rgb(237, 230, 234) solid;
     padding: 1px 3px;
     margin: 2px;
 }
@@ -145,16 +145,32 @@ footer {
 
 /* Album styling */
 article {
-    height: 1000px;
+    height: 400px;
+    width: 80%;
+    margin: 10%;
 }
 
 .desc-coin img {
     height: 300px;
     width: 300px;
+    position: relative;
+    float: left;
+    size: 310px;
+    padding: 5px;
 }
 
 .desc {
+    padding: 5px 10px;
+}
 
+/* fix to show the found by link in document article without the header covering it up  https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
+:target::before {
+    content: "";
+    display: block;
+    height: 100px;
+    /* fixed header height*/
+    margin: -100px 0 0;
+    /* negative fixed header height */
 }
 
 /* Form styling */
@@ -167,24 +183,25 @@ form {
 
 /* Printsheet styling */
 
-#printsheet *{
-    background-color: rgb(237,230,234);
-    color: rgb(45,16,120);
+#printsheet * {
+    background-color: rgb(237, 230, 234);
+    color: rgb(45, 16, 120);
 }
 
 hr {
-    color: rgb(45,16,120);
+    color: rgb(45, 16, 120);
 }
 
 table {
     width: 70%;
     position: relative;
     left: 15%;
-    border: 2px solid rgb(45,16,120);
+    border: 2px solid rgb(45, 16, 120);
 }
 
-th, td {
-    border: 1px solid rgb(45,16,120);
+th,
+td {
+    border: 1px solid rgb(45, 16, 120);
 }
 
 /* album styling */
@@ -199,13 +216,16 @@ th, td {
 
 /* General styling for different elements */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Media queries */
 /* Media queries for small screens - 500px and less */
 @media screen and (max-width: 500px) {
+
     /* Form */
     /* https://stackoverflow.com/questions/15935837/how-to-display-a-range-input-slider-vertically */
     input[type="range"] {
@@ -215,6 +235,7 @@ h1, h2, h3 {
 
 /* Media queries for small screens - 900px and less */
 @media screen and (max-width: 900px) {
+
     /* Form */
     form {
         width: 80%;
@@ -224,6 +245,7 @@ h1, h2, h3 {
 
 /* Media queries for small screens - 1200px and less */
 @media screen and (max-width: 1200px) {
+
     /* Form */
     form {
         width: 70%;
@@ -233,10 +255,10 @@ h1, h2, h3 {
 
 /* Code snippet from https://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages */
 @media print {
-    body{
+    body {
         width: 21cm;
         height: 29.7cm;
-        margin: 30mm 45mm 30mm 45mm; 
+        margin: 30mm 45mm 30mm 45mm;
         /* change the margins as you want them to be. */
-   } 
+    }
 }
