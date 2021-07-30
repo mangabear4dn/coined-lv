@@ -135,13 +135,36 @@ form {
     left: 25%;
 }
 
-/* https://stackoverflow.com/questions/15935837/how-to-display-a-range-input-slider-vertically */
-/* input[type="range"] {
-    transform: rotate(270deg);
- } */
-
 /* General styling for different elements */
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Media queries */
+/* Media queries for small screens - 500px and less */
+@media screen and (max-width: 500px) {
+    /* Form */
+    /* https://stackoverflow.com/questions/15935837/how-to-display-a-range-input-slider-vertically */
+    input[type="range"] {
+        transform: rotate(270deg);
+    }
+}
+
+/* Media queries for small screens - 900px and less */
+@media screen and (max-width: 900px) {
+    /* Form */
+    form {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+/* Media queries for small screens - 1200px and less */
+@media screen and (max-width: 1200px) {
+    /* Form */
+    form {
+        width: 70%;
+        left: 15%;
+    }
 }
