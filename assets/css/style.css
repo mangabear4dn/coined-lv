@@ -158,6 +158,16 @@ th, td {
     border: 1px solid rgb(45,16,120);
 }
 
+/* album styling */
+#album li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#album a {
+    text-decoration: none;
+}
+
 /* General styling for different elements */
 
 h1, h2, h3 {
