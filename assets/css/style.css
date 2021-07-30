@@ -143,6 +143,20 @@ footer {
     background-attachment: fixed;
 }
 
+/* Album styling */
+article {
+    height: 1000px;
+}
+
+.desc-coin img {
+    height: 300px;
+    width: 300px;
+}
+
+.desc {
+
+}
+
 /* Form styling */
 
 form {
