@@ -136,6 +136,28 @@ form {
     left: 25%;
 }
 
+/* Printsheet styling */
+
+#printsheet *{
+    background-color: rgb(237,230,234);
+    color: rgb(45,16,120);
+}
+
+hr {
+    color: rgb(45,16,120);
+}
+
+table {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: 2px solid rgb(45,16,120);
+}
+
+th, td {
+    border: 1px solid rgb(45,16,120);
+}
+
 /* General styling for different elements */
 
 h1, h2, h3 {
