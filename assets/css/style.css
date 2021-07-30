@@ -128,6 +128,21 @@ footer {
     color: inherit;
 }
 
+/* Hero image styling */
+
+#hero-image {
+    height: 450px;
+    width: 100vw;
+    overflow: hidden;
+    /* hero image from https://images.app.goo.gl/V7bazvHXzUHnWecv9 */
+    background-color: inherit;
+    background-image: url('../images/coins.jpeg');
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Form styling */
 
 form {
