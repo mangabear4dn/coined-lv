@@ -34,70 +34,95 @@
         </div>
     </header>
     <section>
-        <!-- Used for inspiration at some points https://www.w3schools.com/html/html_form_input_types.asp -->
-        <form id="feedback-form">
+        <div id="headings">
             <h2>We always strive to improve our service.</h2>
             <h3>Please leave us a feedback!</h3>
+        </div>
 
-            <label for="name">Your name</label>
-            <input type="text" name="name" id="name" required>
-            <br>
-            <label for="email">Your email address</label>
-            <input type="email" name="email" id="email" required>
-            <br>
-            <fieldset>
-                <legend>How did you find our website?</legend>
-                <input type="checkbox" name="found-how" id="someone-told" required>
-                <label for="someone-told">Someone told you about this website</label>
-                <br>
-                <input type="checkbox" name="found-how" id="social-media" required>
-                <label for="social-media">Social media</label>
-                <br>
-                <input type="checkbox" name="found-how" id="online" required>
-                <label for="online">Online searches</label>
-                <br>
-                <input type="checkbox" name="found-how" id="other-find-how" required>
-                <label for="other-find-how">Other</label>
-            </fieldset>
-            <fieldset>
-                <legend>What is your relationship with coin collecting?</legend>
-                <input type="radio" name="experience" id="beginner" required>
-                <label for="beginner">Beginner with a goal</label>
-                <br>
-                <input type="radio" name="experience" id="veteran">
-                <label for="veteran">Veteran collector</label>
-                <br>
-                <input type="radio" name="experience" id="cheerleader">
-                <label for="cheerleader">Cheerleader for collectors</label>
-                <br>
-                <input type="radio" name="experience" id="parttime">
-                <label for="parttime">Part-time enthusiast</label>
-                <br>
-                <input type="radio" name="experience" id="other-experience">
-                <label for="other-experience">Other</label>
-            </fieldset>
-            <label for="years">How many years have you been collecting coins?</label>
-            <br>
-            <select name="years" id="years" required>
-                <option value="zero">I don't collect coins</option>
-                <option value="less-than-one">Less than one year</option>
-                <option value="one-three">One to three years</option>
-                <option value="three-ten">Three to ten years</option>
-                <option value="ten-twenty">Ten to twenty years</option>
-                <option value="more-than-twenty">More than twenty years</option>
-            </select>
-            <fieldset>
-            <label for="positive">What do you like about our website?</label>
-            <br>
-            <textarea name="positive" id="positive" cols="30" rows="10"></textarea>
-            <br>
-            <label for="suggestions">What suggestions do you have to improve our website?</label>
-            <br>
-            <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
-            <br>
-            <button type="submit">Submit feedback!</button>
-            <br>
-            <button type="reset">Clear the form</button>
+        <!-- Used for inspiration at some points https://www.w3schools.com/html/html_form_input_types.asp -->
+        <form id="feedback-form">
+            <div id="about-you">
+                <fieldset>
+                    <legend>Who are you?</legend>
+
+                    <label for="name">Your name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <br>
+                    <label for="email">Your email address</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Your email address" required>
+                    <br>
+                    <label for="years">How many years have you been collecting coins?</label>
+                    <br>
+                    <select name="years" id="years" required>
+                        <option value="zero">I don't collect coins</option>
+                        <option value="less-than-one">Less than one year</option>
+                        <option value="one-three">One to three years</option>
+                        <option value="three-ten">Three to ten years</option>
+                        <option value="ten-twenty">Ten to twenty years</option>
+                        <option value="more-than-twenty">More than twenty years</option>
+                    </select>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>What is your relationship with coin collecting?</legend>
+                    
+                    <input type="radio" name="experience" id="beginner" required>
+                    <label for="beginner">Beginner with a goal</label>
+                    <br>
+                    <input type="radio" name="experience" id="veteran">
+                    <label for="veteran">Veteran collector</label>
+                    <br>
+                    <input type="radio" name="experience" id="cheerleader">
+                    <label for="cheerleader">Cheerleader for collectors</label>
+                    <br>
+                    <input type="radio" name="experience" id="parttime">
+                    <label for="parttime">Part-time enthusiast</label>
+                    <br>
+                    <input type="radio" name="experience" id="other-experience">
+                    <label for="other-experience">Other</label>
+                
+                </fieldset>
+            </div>
+
+            <div id="opinion">
+                <fieldset>
+                    <legend>How did you find our website?</legend>
+
+                    <input type="checkbox" name="found-how" id="someone-told" required>
+                    <label for="someone-told">Someone told you about this website</label>
+                    <br>
+                    <input type="checkbox" name="found-how" id="social-media" required>
+                    <label for="social-media">Social media</label>
+                    <br>
+                    <input type="checkbox" name="found-how" id="online" required>
+                    <label for="online">Online searches</label>
+                    <br>
+                    <input type="checkbox" name="found-how" id="other-find-how" required>
+                    <label for="other-find-how">Other</label>
+                
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your feedback</legend>
+
+                    <label for="positive">What do you like about our website?</label>
+                    <br>
+                    <textarea name="positive" id="positive" cols="30" rows="10"></textarea>
+                    <br>
+                    <label for="suggestions">What suggestions do you have to improve our website?</label>
+                    <br>
+                    <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+
+                </fieldset>
+            </div>
+
+            <div id="form-buttons">
+                <button type="submit">Submit feedback!</button>
+                <button type="reset">Clear the form</button>
+            </div>
         </form>
     </section>
     <footer>
