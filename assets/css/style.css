@@ -181,10 +181,35 @@ article {
 /* Form styling */
 
 form {
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 25%;
+    left: 15%;
 }
+form fieldset {
+    width: 95%;
+}
+
+#about-you {
+    position: relative;
+    float: right;
+    width: 45%;
+}
+
+#opinion {
+    position: relative;
+    float: left;
+    width: 45%;
+}
+
+#form-buttons {
+    /* clear: both; */
+}
+
+#form-buttons button {
+    position: relative;
+    float: right;
+    padding: 5px;
+ }
 
 /* Printsheet styling */
 
