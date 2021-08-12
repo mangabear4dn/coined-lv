@@ -185,7 +185,6 @@ article {
 
 .desc a {
     text-decoration: none;
-    color: inherit;
 }
 
 /* fix to show the found by link in document article without the header covering it up  https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
