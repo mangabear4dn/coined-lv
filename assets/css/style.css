@@ -152,6 +152,20 @@ h3 {
 
 /* Album styling */
 
+#album-nav a {
+    color: rgb(86, 26, 35);
+}
+
+#album-nav a:hover {
+    color: rgb(237, 230, 234);
+    background-color: rgb(86, 26, 35);
+}
+
+#album-nav i {
+    font-size: 15px;
+    padding: 10px;
+}
+
 #back-up {
     font-size: 50%;
     font-style: italic;
