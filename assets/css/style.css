@@ -73,15 +73,10 @@ header li {
     margin: 2px;
 }
 
-/* First section after header */
-
-/* #first-section {
-    clear: both;
-} */
-
 /* Footer styling  */
 
 footer {
+    clear: both;
     background-color: rgb(177, 53, 71);
     width: 100vw;
     height: 100px;
@@ -128,7 +123,19 @@ footer {
     color: inherit;
 }
 
-/* Hero image styling */
+/* Page headings styling for all pages */
+
+#headings {
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Index styling */
 
 #hero-image {
     height: 450px;
@@ -242,14 +249,6 @@ td {
 
 #album a {
     text-decoration: none;
-}
-
-/* General styling for different elements */
-
-h1,
-h2,
-h3 {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* Media queries */
