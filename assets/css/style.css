@@ -151,6 +151,19 @@ h3 {
 }
 
 /* Album styling */
+
+#back-up {
+    font-size: 50%;
+    font-style: italic;
+    opacity: 0.5;
+    position: relative;
+    top: -10px;
+}
+
+#back-up:hover {
+    opacity: 1;
+}
+
 article {
     height: 400px;
     width: 80%;
