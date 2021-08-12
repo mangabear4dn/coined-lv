@@ -77,9 +77,9 @@ header li {
 
 footer {
     clear: both;
-    background-color: rgb(177, 53, 71);
+    background-color: rgb(86, 26, 35);
     width: 100vw;
-    height: 100px;
+    height: 50px;
     /* change the footer fixed to default static because it works out the best since all of the documents on the website will have enough content to push it to the bottom of the displayed page anyway */
     /* position: static;  */
     /* bottom: 0; */
@@ -100,34 +100,11 @@ footer {
     top: 30%;
 }
 
-#footer-links {
-    height: 100%;
-    width: 65%;
-    position: relative;
-    float: right;
-    bottom: 100%;
-    text-align: right;
-    padding-right: 5px;
-}
-
-#footer-links li {
-    list-style-type: none;
-    display: inline-block;
-    border: 1px rgb(237, 230, 234) solid;
-    padding: 1px 3px;
-    margin: 2px;
-}
-
-#footer-links a {
-    text-decoration: none;
-    color: inherit;
-}
-
 /* Page headings styling for all pages */
 
-#headings {
+/* #headings {
 
-}
+} */
 
 h1,
 h2,
@@ -241,9 +218,9 @@ form text {
     width: 45%;
 }
 
-#form-buttons {
-    /* clear: both; */
-}
+/* #form-buttons {
+    clear: both;
+} */
 
 #form-buttons button {
     position: relative;
