@@ -195,6 +195,13 @@ form {
 form fieldset {
     width: 95%;
 }
+form textarea {
+    width: 95%;
+}
+
+form text {
+    width: 95%;
+}
 
 #about-you {
     position: relative;
@@ -231,9 +238,11 @@ form fieldset {
 #reset-button {
     background-color: rgb(237, 230, 234);
     color: rgb(177, 53, 71);
-
 }
 
+#reset-button:hover {
+    color: rgb(86, 26, 35);
+}
 /* Printsheet styling */
 
 #printsheet * {
@@ -268,14 +277,28 @@ td {
 }
 
 /* Media queries */
-/* Media queries for small screens - 500px and less */
-@media screen and (max-width: 500px) {
+/* Media queries for small screens - 700px and less */
+@media screen and (max-width: 700px) {
 
     /* Form */
-    /* https://stackoverflow.com/questions/15935837/how-to-display-a-range-input-slider-vertically */
-    /* input[type="range"] {
-        transform: rotate(270deg);
-    } */
+    form {
+        width: 95%;
+        left: 1%;
+    }
+
+    #about-you {
+        clear: both;
+        width: 100%;
+    }
+
+    #opinion {
+        clear: both;
+        width: 100%;
+    }
+
+    #form-buttons {
+        clear: both;
+    }
 }
 
 /* Media queries for small screens - 900px and less */
@@ -283,8 +306,8 @@ td {
 
     /* Form */
     form {
-        width: 80%;
-        left: 10%;
+        width: 90%;
+        left: 5px;
     }
 }
 
