@@ -216,7 +216,23 @@ form fieldset {
     position: relative;
     float: right;
     padding: 5px;
- }
+    margin: 10px;
+}
+ 
+#submit-button {
+    background-color: rgb(177, 53, 71);
+    color: rgb(237, 230, 234);
+}
+
+#submit-button:hover {
+    background-color: rgb(86, 26, 35);
+}
+
+#reset-button {
+    background-color: rgb(237, 230, 234);
+    color: rgb(177, 53, 71);
+
+}
 
 /* Printsheet styling */
 
