@@ -73,6 +73,19 @@ header li {
     margin: 2px;
 }
 
+/* 
+fix to show the found by link in document article without the header covering it up  
+https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors 
+*/
+:target::before {
+    content: "";
+    display: block;
+    height: 100px;
+    /* fixed header height*/
+    margin: -100px 0 0;
+    /* negative fixed header height */
+}
+
 /* Note about progress */
 #note {
     position: relative;
@@ -118,7 +131,9 @@ h3 {
 }
 
 p {
-    margin: 15%;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding: 2px;
 }
 
 /* Index styling */
@@ -134,6 +149,28 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#hero-image #headings {
+    background-color: rgb(237, 230, 234);
+    position: relative;
+    float: right;
+    top: 55%;
+    right: 10%;
+    font-size: 130%;
+    padding: 5px 15px;
+}
+
+#intro div {
+    clear: both;
+    padding: 10px;
+}
+
+iframe {
+    position: relative;
+    left: 30%;
+    padding: 5%;
+    background-color: green;
 }
 
 /* Album styling */
@@ -212,18 +249,7 @@ article section {
     background-color: red;
 }
 
-/* 
-fix to show the found by link in document article without the header covering it up  
-https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors 
-*/
-:target::before {
-    content: "";
-    display: block;
-    height: 100px;
-    /* fixed header height*/
-    margin: -100px 0 0;
-    /* negative fixed header height */
-}
+/* Printsheet styling */
 
 /* Form styling */
 
