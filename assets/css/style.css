@@ -129,6 +129,19 @@ h3 {
 
 /* Album styling */
 
+#album li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#album a {
+    text-decoration: none;
+}
+
+#articles {
+    columns: 3;
+}
+
 #album-nav a {
     color: rgb(86, 26, 35);
 }
@@ -156,18 +169,25 @@ h3 {
 }
 
 article {
-    height: 400px;
-    width: 80%;
-    margin: 10%;
+    /* height: 300px; */
+    width: 90%;
+    padding: 5%;
+    background-color: yellow;
+}
+
+article section {
+    position: relative;
+    clear: both;
 }
 
 .desc-coin img {
-    height: 300px;
-    width: 300px;
-    position: relative;
-    float: left;
-    size: 310px;
+    height: 280px;
+    width: 280px;
+    /* position: relative; */
+    /* float: left; */
+    /* size: 280px; */
     padding: 5px;
+    border: 1px rgb(86, 26, 35) solid;
 }
 
 .desc {
@@ -176,6 +196,15 @@ article {
 
 .desc a {
     text-decoration: none;
+}
+
+.desc table {
+    border: 1px white solid;
+}
+
+.desc td, .desc th {
+    padding: 7px;
+    background-color: red;
 }
 
 /* fix to show the found by link in document article without the header covering it up  https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
@@ -245,21 +274,6 @@ form text {
 
 #reset-button:hover {
     color: rgb(86, 26, 35);
-}
-/* Printsheet styling */
-
-/* #printsheet * {
-    
-} */
-
-/* album styling */
-#album li {
-    display: inline-block;
-    list-style-type: none;
-}
-
-#album a {
-    text-decoration: none;
 }
 
 /* Media queries */
