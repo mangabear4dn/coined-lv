@@ -88,9 +88,6 @@ footer {
     background-color: rgb(86, 26, 35);
     width: 100vw;
     height: 50px;
-    /* change the footer fixed to default static because it works out the best since all of the documents on the website will have enough content to push it to the bottom of the displayed page anyway */
-    /* position: static;  */
-    /* bottom: 0; */
     font-size: 65%;
     color: rgb(237, 230, 234);
 }
@@ -193,9 +190,6 @@ article section {
 .desc-coin img {
     height: 280px;
     width: 280px;
-    /* position: relative; */
-    /* float: left; */
-    /* size: 280px; */
     padding: 5px;
     border: 1px rgb(86, 26, 35) solid;
 }
@@ -212,12 +206,16 @@ article section {
     border: 1px white solid;
 }
 
-.desc td, .desc th {
+.desc td,
+.desc th {
     padding: 7px;
     background-color: red;
 }
 
-/* fix to show the found by link in document article without the header covering it up  https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
+/* 
+fix to show the found by link in document article without the header covering it up  
+https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors 
+*/
 :target::before {
     content: "";
     display: block;
@@ -234,9 +232,11 @@ form {
     position: relative;
     left: 15%;
 }
+
 form fieldset {
     width: 95%;
 }
+
 form textarea {
     width: 95%;
 }
@@ -257,17 +257,13 @@ form text {
     width: 45%;
 }
 
-/* #form-buttons {
-    clear: both;
-} */
-
 #form-buttons button {
     position: relative;
     float: right;
     padding: 5px;
     margin: 10px;
 }
- 
+
 #submit-button {
     background-color: rgb(177, 53, 71);
     color: rgb(237, 230, 234);
@@ -333,15 +329,5 @@ form text {
     form {
         width: 70%;
         left: 15%;
-    }
-}
-
-/* Code snippet from https://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages */
-@media print {
-    body {
-        width: 21cm;
-        height: 29.7cm;
-        margin: 30mm 45mm 30mm 45mm;
-        /* change the margins as you want them to be. */
     }
 }
