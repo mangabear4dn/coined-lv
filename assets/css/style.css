@@ -139,7 +139,7 @@ h3 {
 }
 
 #articles {
-    columns: 3;
+    column-count: 3;
 }
 
 #album-nav a {
@@ -169,14 +169,12 @@ h3 {
 }
 
 article {
-    /* height: 300px; */
     width: 90%;
     padding: 5%;
     background-color: yellow;
 }
 
 article section {
-    position: relative;
     clear: both;
 }
 
@@ -313,6 +311,11 @@ form text {
 
 /* Media queries for small screens - 1200px and less */
 @media screen and (max-width: 1200px) {
+
+    /* Album */
+    #articles {
+        column-width: 300px;
+    }
 
     /* Form */
     form {
