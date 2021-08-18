@@ -110,14 +110,18 @@ footer {
 
 /* Page headings styling for all pages */
 
-/* #headings {
-
-} */
+#headings {
+    margin-left: 10%;
+}
 
 h1,
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 15%;
 }
 
 /* Index styling */
