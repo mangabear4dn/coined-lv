@@ -73,6 +73,14 @@ header li {
     margin: 2px;
 }
 
+/* Note about progress */
+#note {
+    position: relative;
+    float: right;
+    opacity: 0.5;
+    clear: both;
+}
+
 /* Footer styling  */
 
 footer {
