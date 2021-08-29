@@ -166,6 +166,10 @@ p {
     padding: 10px;
 }
 
+#intro div:hover {
+    background-color: rgb(86, 26, 35, 0.3);
+}
+
 iframe {
     position: relative;
     left: 30%;
