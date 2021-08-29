@@ -37,6 +37,7 @@ header {
     float: left;
     top: 0;
     width: 35%;
+    left: 3%
 }
 
 #nav {
@@ -320,6 +321,15 @@ form text {
 /* Media queries */
 /* Media queries for small screens - 700px and less */
 @media screen and (max-width: 700px) {
+
+    /* Header */
+    #title {
+        font-size: 80%;
+    }
+    
+    #nav {
+        font-size: 80%;
+    }
 
     /* Form */
     form {
