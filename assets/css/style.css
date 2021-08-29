@@ -8,6 +8,11 @@ body {
     font-family: 'Vollkorn', serif;
     background-color: rgb(237, 230, 234);
     color: rgb(45, 16, 120);
+    max-width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Header styling */
@@ -339,6 +344,19 @@ form text {
 
 /* Media queries for small screens - 900px and less */
 @media screen and (max-width: 900px) {
+
+    /* Header */
+    #title {
+        height: 50%;
+        clear: both;
+        width: fit-content;
+    }
+    
+    #nav {
+        height: 50%;
+        clear: both;
+        width: fit-content;
+    }
 
     /* Form */
     form {
