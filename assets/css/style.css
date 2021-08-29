@@ -222,6 +222,10 @@ article {
     padding: 5%;
 }
 
+article:hover {
+    background-color: rgb(86, 26, 35, 0.3);
+}
+
 article section {
     clear: both;
 }
