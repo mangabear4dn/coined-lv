@@ -40,20 +40,19 @@ header {
     position: relative;
     float: right;
     top: 0;
+    padding: 1px 3px;
 }
 
 #nav a:hover {
     border: 1px rgb(237, 230, 234) solid;
-    padding: 1px 3px;
     background-color: rgb(86, 26, 35);
     color: rgb(237, 230, 234);
+    box-sizing: border-box;
 }
 
 #active-page {
     color: rgb(86, 26, 35);
     background-color: rgb(237, 230, 234);
-    padding: 1px 3px;
-    font-size: 115%;
 }
 
 header a {
