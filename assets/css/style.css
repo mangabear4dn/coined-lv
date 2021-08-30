@@ -168,7 +168,6 @@ p {
 
 #intro div {
     clear: both;
-    padding: 10px;
 }
 
 #intro div:hover {
@@ -178,6 +177,7 @@ p {
 iframe {
     position: relative;
     left: 30%;
+    width: 40vw;
     padding: 5%;
 }
 
@@ -366,6 +366,13 @@ form text {
         height: 50%;
         clear: both;
         width: fit-content;
+    }
+
+    /* Index */
+    iframe {
+        width: 100vw;
+        left: 0;
+        padding: 0;
     }
 
     /* Form */
