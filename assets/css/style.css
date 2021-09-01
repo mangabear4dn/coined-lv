@@ -96,14 +96,6 @@ https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-a
     /* negative fixed header height */
 }
 
-/* Note about progress */
-#note {
-    position: relative;
-    float: right;
-    opacity: 0.5;
-    clear: both;
-}
-
 /* Footer styling  */
 
 footer {
@@ -149,7 +141,7 @@ p {
 /* Main section of the pagas */
 
 .main-section {
-    min-height: 75vh;
+    min-height: 80vh;
 }
 
 /* Index styling */
