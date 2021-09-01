@@ -210,7 +210,7 @@ iframe {
     padding: 10px;
 }
 
-#back-up {
+.back-up {
     font-size: 50%;
     font-style: italic;
     opacity: 0.5;
@@ -218,7 +218,7 @@ iframe {
     top: -10px;
 }
 
-#back-up:hover {
+.back-up:hover {
     opacity: 1;
 }
 
