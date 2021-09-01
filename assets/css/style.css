@@ -146,6 +146,12 @@ p {
     padding: 2px;
 }
 
+/* Main section of the pagas */
+
+.main-section {
+    min-height: 75vh;
+}
+
 /* Index styling */
 
 #hero-image {
