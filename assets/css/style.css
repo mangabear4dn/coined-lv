@@ -83,6 +83,12 @@ header li {
     margin: 2px;
 }
 
+/* Main section of the pagas */
+
+.main-section {
+    min-height: 80vh;
+}
+
 /* 
 fix to show the found by link in document article without the header covering it up  
 https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors 
@@ -116,7 +122,7 @@ footer {
 
 #copyright h2 {
     position: relative;
-    float: center;
+    float: left;
     top: 30%;
 }
 
@@ -136,12 +142,6 @@ p {
     margin-left: 15%;
     margin-right: 10%;
     padding: 2px;
-}
-
-/* Main section of the pagas */
-
-.main-section {
-    min-height: 80vh;
 }
 
 /* Index styling */
