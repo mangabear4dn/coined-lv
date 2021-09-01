@@ -168,10 +168,7 @@ p {
 
 #intro div {
     clear: both;
-}
-
-#intro div:hover {
-    background-color: rgb(86, 26, 35, 0.3);
+    padding: 1vw;
 }
 
 iframe {
