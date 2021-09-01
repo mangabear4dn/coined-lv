@@ -50,6 +50,10 @@ header {
     margin-right: 3vw;
 }
 
+#nav a {
+    padding: .5vw 1vw;
+}
+
 #nav a:hover {
     border: 1px rgb(237, 230, 234) solid;
     background-color: rgb(86, 26, 35);
