@@ -122,8 +122,8 @@ footer {
 
 #copyright h2 {
     position: relative;
-    float: left;
-    top: 30%;
+    float: right;
+    top: 15%;
 }
 
 /* Page headings styling for all pages */
