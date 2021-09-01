@@ -47,6 +47,7 @@ header {
     float: right;
     top: 0;
     padding: 1px 3px;
+    margin-right: 3vw;
 }
 
 #nav a:hover {
