@@ -165,14 +165,14 @@ p {
 
 #intro div {
     clear: both;
-    padding: 1vw;
 }
 
 iframe {
     position: relative;
     left: 30%;
     width: 40vw;
-    padding: 5%;
+    padding: 0;
+    border: none;
 }
 
 /* Album styling */
