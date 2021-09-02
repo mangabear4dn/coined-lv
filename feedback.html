@@ -56,7 +56,7 @@
                     <br>
                     <label for="years">How many years have you been collecting coins?</label>
                     <br>
-                    <select name="years" id="years" required>
+                    <select name="years" id="years" required size="6">
                         <option value="zero">I don't collect coins</option>
                         <option value="less-than-one">Less than one year</option>
                         <option value="one-three">One to three years</option>
@@ -70,19 +70,19 @@
                 <fieldset>
                     <legend>What is your relationship with coin collecting?</legend>
                     
-                    <input type="radio" name="experience" id="beginner" required>
+                    <input type="radio" value="begginer" name="experience" id="beginner">
                     <label for="beginner">Beginner with a goal</label>
                     <br>
-                    <input type="radio" name="experience" id="veteran">
+                    <input type="radio" value="veteran" name="experience" id="veteran">
                     <label for="veteran">Veteran collector</label>
                     <br>
-                    <input type="radio" name="experience" id="cheerleader">
+                    <input type="radio" value="cheerleader" name="experience" id="cheerleader">
                     <label for="cheerleader">Cheerleader for collectors</label>
                     <br>
-                    <input type="radio" name="experience" id="parttime">
+                    <input type="radio" value="part-time" name="experience" id="parttime">
                     <label for="parttime">Part-time enthusiast</label>
                     <br>
-                    <input type="radio" name="experience" id="other-experience">
+                    <input type="radio" value="other" name="experience" id="other-experience">
                     <label for="other-experience">Other</label>
                 
                 </fieldset>
@@ -91,17 +91,17 @@
             <div id="opinion">
                 <fieldset>
                     <legend>How did you find our website?</legend>
-
-                    <input type="checkbox" name="found-how" id="someone-told" required>
+                    <!-- Square brackets added to the name of input to fix an issue in validation (Suggested by the mentor Guido Cecilio) -->
+                    <input type="checkbox" value="friend" name="found-how[]" id="someone-told">
                     <label for="someone-told">Someone told you about this website</label>
                     <br>
-                    <input type="checkbox" name="found-how" id="social-media" required>
+                    <input type="checkbox" value="media" name="found-how[]" id="social-media">
                     <label for="social-media">Social media</label>
                     <br>
-                    <input type="checkbox" name="found-how" id="online" required>
+                    <input type="checkbox" value="search" name="found-how[]" id="online">
                     <label for="online">Online searches</label>
                     <br>
-                    <input type="checkbox" name="found-how" id="other-find-how" required>
+                    <input type="checkbox" value="other" name="found-how[]" id="other-find-how">
                     <label for="other-find-how">Other</label>
                 
                 </fieldset>
