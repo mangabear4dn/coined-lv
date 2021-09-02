@@ -111,19 +111,13 @@ footer {
     height: 50px;
     font-size: 65%;
     color: rgb(237, 230, 234);
+    margin: 0;
 }
 
 #copyright {
-    height: 100%;
-    width: 30%;
-    position: relative;
     text-align: center;
-}
-
-#copyright h2 {
     position: relative;
-    float: right;
-    top: 15%;
+    top: 25%;
 }
 
 /* Page headings styling for all pages */
